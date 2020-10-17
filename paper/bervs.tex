@@ -1,7 +1,39 @@
 \documentclass[12pt]{article}
 
+\newcommand{\unit}[1]{\mathrm{#1}}
+\newcommand{\m}{\unit{m}}
+\newcommand{\s}{\unit{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\mas}{\unit{mas}}
+\newcommand{\yr}{\unit{yr}}
+\newcommand{\maspyr}{\mas\,\yr^{-1}}
+
 \begin{document}
 
-Hello World!
+\section*{Measuring astrometric quantities with a radial-velocity survey}
+
+\noindent
+\textbf{Abstract:}
+With stellar radial-velocity measurement projects pushing towards
+$0.1$ or even $0.01\,\mps$ precisions, the barycentric
+correction---the contribution to radial-velocity signals from the
+motion of the observatory with respect to the Solar System
+barycenter---must be known extremely precisely.
+At the same time, the brightest stars, which comprise some of the best
+targets for radial-velocity planet searches, often do not have their
+celestial positions and proper motions measured extremely precisely.
+These two problems intersect, because the barycentric radial-velocity
+correction depends sensitively on the angular position and velocity of
+the target star.
+Here we turn this challenge into an opportunity by showing that precise
+radial-velocity measurements can be used, in concert with an accurate
+Solar System ephemeris and geodesy, to infer positions and proper motions
+for stars at the $100\,\mas$ and $10\,\maspyr$ levels, given a decade of
+extremely good radial-velocity measurements.
+We also show that precise knowledge of the stellar position and proper
+motion is not required for radial-velocity planet search
+and characterization.
+If the target-star astrometric quantities are unknown or uncertain,
+they must be fit simultaneously with the exoplanet orbit parameters.
 
 \end{document}
